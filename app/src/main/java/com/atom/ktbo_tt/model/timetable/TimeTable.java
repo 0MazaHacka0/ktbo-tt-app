@@ -1,11 +1,13 @@
 package com.atom.ktbo_tt.model.timetable;
 
+import java.util.List;
+
 public class TimeTable {
 
     // Weeks
-    private Week[] mWeeks;
+    private List<Week> mWeeks;
 
-    public TimeTable(Week[] weeks) {
+    public TimeTable(List<Week> weeks) {
         mWeeks = weeks;
     }
 

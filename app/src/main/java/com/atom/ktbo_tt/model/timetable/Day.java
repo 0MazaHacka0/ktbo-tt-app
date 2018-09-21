@@ -1,6 +1,7 @@
 package com.atom.ktbo_tt.model.timetable;
 
 import java.util.Date;
+import java.util.List;
 
 public class Day {
 
@@ -8,9 +9,9 @@ public class Day {
     private Date mDate;
 
     // Lessons
-    private Lesson[] mLessons;
+    private List<Lesson> mLessons;
 
-    public Day(Date date, Lesson[] lessons) {
+    public Day(Date date, List<Lesson> lessons) {
         mDate = date;
         mLessons = lessons;
     }
