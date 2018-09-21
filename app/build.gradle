@@ -27,6 +27,16 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    // Google GSON
+    // Google GSON Library
     implementation 'com.google.code.gson:gson:2.8.5'
+
+    // Library for parsing html
+    implementation 'org.jsoup:jsoup:1.8.3'
+
+    // HTTP Library
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+
+    // Library for HTTP Requests
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+
 }
